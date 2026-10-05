@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f2f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #111827, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background: #111827;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #2563eb;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .perfil {
+            text-align: center;
+        }
+
+        .foto {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #dbeafe;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+
+        .habilidades {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .tarjeta {
+            background: #eff6ff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .tarjeta h3 {
+            color: #1d4ed8;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi Portafolio Personal</h1>
+        <p>¡Hola! Soy Jairo</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#metas">Metas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="sobre-mi" class="perfil">
+        <div class="foto">👤</div>
+
+        <h2>Sobre mí</h2>
+
+        <p>
+            Hola, mi nombre es <strong>Jairo</strong>.
+            Soy una persona que busca aprender cosas nuevas,
+            mejorar cada día y alcanzar sus metas.
+        </p>
+
+        <br>
+
+        <p>
+            Me gusta aprender, desarrollar nuevas habilidades
+            y trabajar para conseguir mis objetivos.
+        </p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Mis habilidades</h2>
+
+        <div class="habilidades">
+
+            <div class="tarjeta">
+                <h3>Responsabilidad</h3>
+                <p>Cumplo con mis tareas y responsabilidades.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Creatividad</h3>
+                <p>Me gusta crear y buscar nuevas ideas.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Trabajo en equipo</h3>
+                <p>Me gusta colaborar y ayudar a los demás.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Aprendizaje</h3>
+                <p>Siempre estoy dispuesto a aprender cosas nuevas.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="metas">
+        <h2>Mis metas</h2>
+
+        <h3>🎯 Corto plazo</h3>
+        <p>
+            Mejorar mis conocimientos, cumplir con mis responsabilidades
+            y obtener buenos resultados en mis estudios.
+        </p>
+
+        <br>
+
+        <h3>🚀 Largo plazo</h3>
+        <p>
+            Terminar mis estudios, prepararme profesionalmente
+            y alcanzar mis objetivos personales.
+        </p>
+    </section>
+
+    <section>
+        <h2>Mis cualidades</h2>
+
+        <ul>
+            <li>Responsable</li>
+            <li>Respetuoso</li>
+            <li>Amable</li>
+            <li>Perseverante</li>
+            <li>Creativo</li>
+            <li>Con ganas de aprender</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <p><strong>Nombre:</strong> Jairo</p>
+        <p><strong>Correo:</strong> tu-correo@ejemplo.com</p>
+        <p><strong>País:</strong> Guatemala</p>
+    </section>
+
+    <footer>
+        <p>© 2026 - Mi Portafolio Personal | Jairo</p>
+    </footer>
+
+</body>
+</html>
